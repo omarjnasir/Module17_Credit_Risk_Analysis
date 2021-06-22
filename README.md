@@ -4,7 +4,9 @@ SUPERVISED MACHINE LEARNING AND CREDIT RISK
 Overview:
 Millions of people borrow money, and most contracts are performed according to payment schedule, but some may default. The purpose of this exercise is to determine credit risk. What type of borrowers are likely to default and are the lending criterion serving the interests of the lender?
 Statistical Observations are made, and the data evaluated for risk. Machine Learning is used to do predictive analysis. In machine learning data is split into training and test modes and then the effectiveness of models measured as it is compared with actual results.
-ANALYSIS:
+ANALYSIS:![image](https://user-images.githubusercontent.com/78710287/122844440-890acf80-d2b6-11eb-8115-d2415e084fca.png)
+
+
 •	Balanced Accuracy Score
 •	*Balanced accuracy is a metric that one can use when evaluating how good a binary classifier is. It is especially useful when the classes are imbalanced, i.e., one of the two classes appears a lot more often than the other. This happens often in many settings such as anomaly detection and the presence of a disease.
 •	As with all discussions on the performance of a binary classifier, we start with a confusion matrix:
@@ -12,7 +14,9 @@ ANALYSIS:
 Confusion Matrix is similar to the statistical concept (Ref.4) of Type I and Type II errors in Hypothesis Testing.
 
 Balanced accuracy is based on two more commonly used metrics: sensitivity (also known as true positive rate or recall) and specificity (also known as true negative rate, or 1 – false positive rate). Sensitivity answers the question: “How many of the positive cases did I detect?” Or to put it in a manufacturing setting: “How many (truly) defective products did I manage to recall?” Specificity answers that same question but for the negative cases. Here are the formulas for sensitivity and specificity in terms of the confusion matrix:
- 
+
+ ![image](https://user-images.githubusercontent.com/78710287/122844642-f28ade00-d2b6-11eb-99e9-a34db7366c39.png)
+
 Balanced accuracy is simply the arithmetic mean of the two:
  
 For the confusion matrix, each Row in the Confusion Matrix represents an actual class, and each column represents a predicted class. This confusion matrix is also in our simulations, which are accompanying this README.
